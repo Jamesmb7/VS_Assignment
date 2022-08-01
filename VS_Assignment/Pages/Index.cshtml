@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">This song is great.</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="video_container">
+    <div class="videos">
+    <iframe src="https://www.youtube.com/watch?v=pAgnJDJN4VA" height="200" width="200" title="Cool Music"></iframe>
+    </div>
+</div>
+
+<p>
+    <button onclick="myMove()">Click Me!</button>
+</p>
+<div id="myContainer">
+    <div id="myAnimation"></div>
+</div>
